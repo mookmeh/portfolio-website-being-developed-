@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EFECE3;
+}
+
+.container {
+    /* background-color:; */
+    width: 25rem;
+    height: 3.5rem;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    border-bottom: 2px solid #CDCBC8;
+}
+
+a {
+    color: #739EC8;
+    text-decoration: none;
+}
+
+.home a {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.ach-box {
+    width: 25rem;
+    padding-left: 2rem;
+    /* padding-right: 3rem; */
+}
+
+.national {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.comp-des {
+    width: 25rem;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    gap: 12px;
+}
+
+.des-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.line {
+    width: 31vh;
+    border-top: 1.5px solid black;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.prize-1 {
+    color: #739EC8;
+    font-weight: 600;
+}
+
+.wrg {
+    font-weight: 550;
+    padding-bottom: .5rem;
+}
+
+.comp-des-2 {
+    width: 25rem;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    gap: 12px;
+}
+
+.prize-2 {
+    color: #739EC8;
+    font-weight: 600;
+}
+
+.line-2 {
+    width: 25vh;
+    border-top: 1.5px solid black;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.spu-1 {
+    font-weight: 550;
+    padding-bottom: .5rem;
+}
+
+.comp-des-3 {
+    width: 25rem;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    gap: 12px;
+}
+
+.des-box-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.prize-3 {
+    color: #739EC8;
+    font-weight: 600;
+}
+
+.line-3 {
+    width: 25vh;
+    border-top: 1.5px solid black;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.spu-2 {
+    font-weight: 550;
+    padding-bottom: .5rem;
+}
+
+.footer-box {
+    background-color: #739EC8;
+    color: #EFECE3;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 5rem;
+    margin-top: 1.2rem;
+}
+
+.shade {
+    position: absolute;
+    padding-left: 11rem;
+    margin-top: -2.7rem;
+    z-index: -25;
+}

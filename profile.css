@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EFECE3;
+}
+
+.container {
+    /* background-color:; */
+    width: 25rem;
+    height: 3.5rem;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    border-bottom: 2px solid #CDCBC8;
+}
+
+a {
+    color: #739EC8;
+    text-decoration: none;
+}
+
+.home a {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.profile-main {
+    width: 25rem;
+    /* height: 32rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me {
+    padding-top: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: .5rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.personal-info {
+    padding-left: 1rem;
+    padding-top: 1.2rem;
+    line-height: 1.25rem;
+}
+
+.edu-con {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.8rem;
+    padding-top: .2rem;
+}
+
+.education {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+}
+
+.edu-lists {
+    display: flex;
+    flex-direction: column;
+}
+
+.ps {
+    display: flex;
+}
+
+.primary {
+    padding-top: 1.29rem;
+}
+
+.jhs {
+    display: flex;
+}
+
+.junior {
+    padding-top: 1.29rem;
+}
+
+.shs {
+    display: flex;
+}
+
+.high {
+    padding-top: .8rem;
+}
+
+.talent-con{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.8rem;
+    padding-top: .2rem;
+}
+
+.talent{
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+}
+
+.art-box {
+    background-color: #739EC8;
+    color: #EFECE3;
+    font-size: 1.5rem;
+    width: 30vh;
+    padding: 15px 25px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.art-box:hover {
+    background-color: palevioletred;
+    opacity: 55%;
+}
+
+.eng-box {
+    background-color: #739EC8;
+    color: #EFECE3;
+    font-size: 1.5rem;
+    width: 30vh;
+    padding: 15px 25px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.eng-box:hover {
+    background-color: palevioletred;
+    opacity: 55%;
+}
+
+.contact-con {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+ }
+
+.contact-1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-left: 3.8rem;
+    padding-top: .2rem;
+}
+
+.contact-lists {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    /* padding-left: 3.8rem; */
+}
+
+.footer-box {
+    background-color: #739EC8;
+    color: #EFECE3;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 5rem;
+    margin-top: 1.2rem;
+}
+
+/* .fb:hover {
+    opacity: 70%;
+} */

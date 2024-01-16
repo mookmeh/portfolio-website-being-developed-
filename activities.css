@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EFECE3;
+}
+
+.container {
+    /* background-color:; */
+    width: 25rem;
+    height: 3.5rem;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    border-bottom: 2px solid #CDCBC8;
+}
+
+a {
+    color: #739EC8;
+    text-decoration: none;
+}
+
+.home a {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.acti-box {
+    width: 25rem;
+    padding-left: 3rem;
+}
+
+.activities {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.edu-con {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #739EC8;
+    padding-bottom: 1rem;
+}
+
+.ce {
+    font-size: 1.2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: 600;
+}
+
+.desc-1 {
+    margin-left: 2rem;
+}
